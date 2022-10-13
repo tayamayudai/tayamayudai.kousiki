@@ -1,0 +1,65 @@
+<style type="text/css">
+#photo {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+}
+
+#photo img {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+</style>
+<body bgcolor="white"></body>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    var setImg = '#photo';
+    var fadeSpeed = 1600;
+    var switchDelay = 5000;
+
+    $(setImg).children('img').css({opacity:'0'});
+    $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+    setInterval(function(){
+        $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+    },switchDelay);
+});
+</script>
+<html>
+    
+    <hr>
+    <p><font face="ＭＳ Ｐ明朝"size="8"color="#191970
+">田山雄大</font><font face="ＭＳ Ｐ明朝"size="3"color="#191970
+">公式サイト</font><p/>
+    <hr>
+    
+    <p>
+
+    <div id="photo">
+<img src="https://pbs.twimg.com/media/Few6XlNUUAAHf-o?format=jpg&name=small" width="600" height="400" alt="">
+<img src="https://pbs.twimg.com/media/Few6XlXUAAAnAdN?format=jpg&name=small" width="600" height="400" alt="">
+ </div><p/>
+    
+    <hr>
+    
+    
+    <p><font face="ＭＳ Ｐ明朝"size="5"><center><b>ー我らは赤津遼太朗同士と共にー</b></center></font></p>
+    
+    <p><font face="ＭＳ Ｐ明朝"size="3"><center><b>私は赤津遼太朗会長と共に、この茨城中学校の副会長として、皆さんの学校生活を少しでも充実したものにしてい着たいと思います。<b/><center/><p/>
+    <p><font face="ＭＳ Ｐ明朝"size="3"><center><b>会長の”面白ければそれでいいじゃん！！”の思想のもと生徒会活動に全力で取り組みたいと思いますので、応援よろしくお願いします!<b/><center/><p/>
+
+<hr>    
+        <div style="position: relative; display:inline-block;">
+<img src="https://pbs.twimg.com/media/Feyrz1JUYAA9phh?format=png&name=small"
+     width="1000">
+<div style="position: absolute; top: 0; left: 0; max-width: 50%; max-height: 50%; padding: 30px; text-align: left;">
+    <p><font color="white" size="8">プロフィール</font></p><p><font size="6" color="white">氏名:田山雄大</font><p/>
+    <p><font size="6" color="white">誕生日:2008.8.15</font><p/><p><font size="6" color="white">現職:副会長</font><p/><p><font size="6" color="white">当選回数:１回<p/></font><p><font size="6" color="white">中学２年生後期で初当選</font><p/><p><font color="white"size="6">Mr.Childrenのファンです。</font></p
+></div></div>
+    <hr>
